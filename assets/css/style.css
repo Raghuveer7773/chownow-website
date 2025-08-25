@@ -1,0 +1,19 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+
+:root{
+    /* Reusable colors */
+    --primary-orange-1 :#FFBA08;
+    --primary-orange-2 : #FAA307;
+    --primary-orange-3 : #F48C06;
+    --primary-orange-4 : #E85D04;
+
+    --primary-red-1: #DC2F02;
+    --primary-red-2: #D00000;
+    --primary-red-3: #9D0208;
+
+    --primary-dark-1: #6A040F;
+    --primary-dark-2: #370617;
+    --primary-dark-3: #03071E;
+}
