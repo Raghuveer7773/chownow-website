@@ -200,15 +200,104 @@ img.offers-img {
 }
 
 h5.off-over-head {
-    font-family: 'Edu NSW ACT Cursive';
-    font-size: 25px;
-    line-height: 34.5px;
-    margin-bottom: 34px;
+  font-family: "Edu NSW ACT Cursive";
+  font-size: 25px;
+  line-height: 34.5px;
+  margin-bottom: 34px;
 }
 
 p.offer-para {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    font-family: 'Edu NSW ACT Cursive';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  font-family: "Edu NSW ACT Cursive";
 }
+
+
+/* menu section starts */
+section.menu-section.menu {
+  padding-block-start: 5%;
+  padding-block-end: 5%;
+}
+
+.menu-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  font-size: 55px;
+  color: var(--primary-dark-2);
+  font-family: "Edu NSW ACT Cursive", cursive;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--primary-orange-4) !important;
+  color: white !important;
+  border-radius: 12px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-dark-3) !important;
+}
+
+ul#pills-tab {
+  margin-bottom: 5% !important;
+}
+
+.menu-cards {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.menu-card-item {
+  height: fit-content;
+  object-fit: cover;
+}
+
+.mutton-items,
+.chicken-items,
+.fish-items,
+.egg-items,
+.veg-items {
+  width: 100%;
+  height: 250px;
+}
+
+.menu-detail {
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 20px;
+  background-color: var(--primary-dark-2);
+  color: var(--primary-orange-3);
+  width: 100%;
+}
+
+h5.dishname {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8%;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Edu NSW ACT Cursive";
+}
+
+p.half,
+p.full{
+  padding-left: 12%;
+}
+
+
+
+
