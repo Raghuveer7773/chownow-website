@@ -19,6 +19,7 @@ body {
 
 .container {
   max-width: 1280px;
+  margin: auto 0;
 }
 
 /* HEADER */
@@ -145,10 +146,12 @@ h1.offer-title {
   font-size: 55px;
   color: var(--primary-dark-2);
   font-family: "Edu NSW ACT Cursive", cursive;
+  padding-bottom: 4%;
 }
 
 p.offer-slogan {
-  font-size: 20px;
+  font-size: 24px;
+  font-family: "Edu NSW ACT Cursive", cursive;
 }
 
 img.offers-img {
@@ -212,7 +215,6 @@ p.offer-para {
   line-height: 18px;
   font-family: "Edu NSW ACT Cursive";
 }
-
 
 /* menu section starts */
 section.menu-section.menu {
@@ -294,10 +296,89 @@ h5.dishname {
 }
 
 p.half,
-p.full{
+p.full {
   padding-left: 12%;
 }
 
+/* master chefs section */
+section.master-chef-section {
+  padding-block-start: 5%;
+  padding-block-end: 5%;
+}
+
+.master-chef-head {
+  display: flex;
+  flex-direction: column;
+}
+
+h1.master-chef.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4%;
+  font-size: 55px;
+  color: var(--primary-dark-2);
+  font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+p.master-chef-para {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 24px;
+  font-family: "Edu NSW ACT Cursive", cursive;
+}
 
 
+.chef-image{
+  width: 100%;
+}
 
+.chef-img,
+.chef-content{
+  padding-left: 0 !important;
+  width: 50%;
+}
+
+.chef-head {
+    padding-block-start: 25%;
+    margin-bottom: 5%;
+}
+
+p.chef-para {
+    font-size: 32px;
+}
+
+h5.chef-title {
+    font-size: 18px;
+    color: #ffba08;
+    margin-bottom: 0 !important;
+}
+
+button.learn-more-btn {
+    padding: 15px 25px 15px 25px;
+    border-radius: 16px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: 0.3;
+}
+
+h4.order {
+    width: 66%;
+    margin-bottom: 5%;
+    line-height: 38.5px;
+    font-family: cursive;
+}
+
+p.order-facality {
+    font-size: 16px;
+    line-height: 31.5px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+button.learn-more-btn:hover {
+    zoom: inherit;
+    transition: 0.3s;
+    color: black;
+    padding: 20px 30px 20px 30px;
+}
