@@ -260,10 +260,13 @@ ul#pills-tab {
 
 .menu-cards {
   flex-wrap: wrap;
-  gap: 8px;
+  justify-content: space-evenly;
+  gap: 25px;
+  width: 100%;
 }
 
 .menu-card-item {
+  width: 23%;
   height: fit-content;
   object-fit: cover;
 }
