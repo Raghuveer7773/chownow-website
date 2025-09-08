@@ -386,7 +386,6 @@ button.learn-more-btn:hover {
 .contact-img,
 .contact-form {
   width: 640px;
-  /* height: 500px; */
 }
 
 img.contact-image {
@@ -450,3 +449,51 @@ button.book-now-btn {
   background-color: black;
   padding-left: 12px !important;
 }
+
+/* team members */
+section.team-member-section{
+    padding-block-start: 5%;
+    padding-block-end: 5%;
+}
+
+.team-members {
+  justify-content: space-between;
+}
+
+.image-mem {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.member {
+  width: 23%;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 15px 15px 15px 15px;
+}
+
+ul.list-items {
+  display: flex;
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.member-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a.social-links {
+  color: black;
+}
+
+.member-img {
+  margin-bottom: 5%;
+}
+.team-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
