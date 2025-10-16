@@ -90,8 +90,8 @@
         <!-- hero-section -->
         <section class="hero-section hero">
             <div class="container">
-                <div class="row hero-content">
-                    <div class="col-md-6 hero-data">
+                <div class="hero-content d-flex">
+                    <div class="hero-data">
                         <h1 class="hero-title">Chow Now cloud-Kitchen</h1>
                         <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rerum ex?
                             Itaque, possimus odit quidem a repudiandae tempore totam, perspiciatis tenetur recusandae
@@ -576,12 +576,12 @@
                 </div>
                 <div class="row master-chef-content">
                     <div class="col-md-6 chef-img">
-                        <img src="./assets/images/cook.png" class="chef-image">
+                        <img src="assets/images/cook.png" class="chef-image">
                     </div>
                     <div class="col-md-6 chef-content">
                         <div class="chef-head">
                             <h5 class="chef-title">ORDER WITH US</h5>
-                            <p class="chef-para">Your <span style="color: #D00000;">Ex</span> disappointed you, we
+                            <p class="chef-para">Your <span style="color: #D00000;">Ex</span>disappointed you, we
                                 won’t.</p>
                         </div>
                         <div class="chef-content-data">
@@ -598,48 +598,7 @@
                 </div>
             </div>
         </section>
-
-        <!-- contact-section -->
-        <section class="contact-section contact">
-            <div class="container">
-                <div class="contact-content d-flex">
-                    <div class="contact-img">
-                        <img src="./assets/images/contact_page.png" class="contact-image">
-                    </div>
-                    <div class="contact-form">
-                        <div class="contact-head d-flex">
-                            <h5 class="contact-title">
-                                Reservation
-                            </h5>
-                            <h3 class="book-table">Book A Table Online</h3>
-                        </div>
-                        <div class="contact-form-deatil">
-                            <form action="/action_page.php">
-                                <div class="form">
-                                    <div class="peronal-details d-flex">
-                                        <input type="text" id="fname" name="fname" value="Full Name">
-                                        <input type="email" id="email" name="email" value="Email" required />
-                                    </div>
-                                    <div class="timeslot d-flex">
-                                        <input type="date" id="dnt" name="dnt" placeholder="Date" required />
-                                        <select id="persons" name="people">
-                                            <option value="2">2</option>
-                                            <option value="4">4</option>
-                                            <option value="8">8+</option>
-                                            <option value="12">12+</option>
-                                        </select>
-                                    </div>
-                                    <textarea rows="4" cols="50" name="comment"
-                                        form="usrform">Any Special Request Here...</textarea>
-                                    <button class="book-now-btn">Book Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        
         <!-- team-member-section -->
         <section class="team-member-section team-member">
             <div class="container">
@@ -739,10 +698,53 @@
                 </div>
             </div>
         </section>
+
+        <!-- contact-section -->
+        <section class="contact-section contact">
+            <div class="container">
+                <div class="contact-content d-flex">
+                    <div class="contact-img">
+                        <img src="./assets/images/contact_page.png" class="contact-image">
+                    </div>
+                    <div class="contact-form">
+                        <div class="contact-head d-flex">
+                            <h5 class="contact-title">
+                                Reservation
+                            </h5>
+                            <h3 class="book-table">Book A Table Online</h3>
+                        </div>
+                        <div class="contact-form-deatil">
+                            <form action="/action_page.php">
+                                <div class="form">
+                                    <div class="peronal-details d-flex">
+                                        <input type="text" id="fname" name="fname" value="Full Name">
+                                        <input type="email" id="email" name="email" value="Email" required />
+                                    </div>
+                                    <div class="timeslot d-flex">
+                                        <input type="date" id="dnt" name="dnt" placeholder="Date" required />
+                                        <select id="persons" name="people">
+                                            <option value="2">2</option>
+                                            <option value="4">4</option>
+                                            <option value="8">8+</option>
+                                            <option value="12">12+</option>
+                                        </select>
+                                    </div>
+                                    <textarea rows="4" cols="50" name="comment"
+                                        form="usrform">Any Special Request Here...</textarea>
+                                    <button class="book-now-btn">Book Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer -->
-    <footer class="main-footer"></footer>
+    <footer class="main-footer">
+        <h1 class="footer">This is the footer</h1>
+    </footer>
 
     <!-- owl carousel js -->
     <script src="./assets/js/owl.carousel.min.js"></script>
